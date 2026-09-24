@@ -2,6 +2,8 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var t=localStorage.getItem('vita-theme');if(!t)t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)}catch(e){document.documentElement.setAttribute('data-theme','light')}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wissen: NIS2, NISG 2026, ISO 27001 &amp; IT-Governance | VITA</title>
 <meta name="description" content="Fachwissen zu NIS2 / NISG, NIS2UmsuCG, ISO 27001, DORA und IT-Governance: Fristen, Pflichten und Umsetzung für Unternehmen in Österreich und Deutschland.">
@@ -914,6 +916,78 @@ img,svg{max-width:100%}
  .brand span{font-size:.72rem;letter-spacing:.08em}
  .res .acts{flex-direction:column}.res .acts .btn{width:100%}
 }
+
+/* ================= Cyber Security Bereich ================= */
+.cy{padding:120px 0;background:var(--bg)}
+.cy .g2{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:64px;align-items:start}
+.cy h2{font-size:clamp(2.3rem,4.8vw,4.1rem);line-height:.98;margin-bottom:20px}
+.cy .l{color:var(--ink2);font-size:1.1rem;margin-bottom:26px;max-width:48ch}
+.cy .map{border-top:2px solid var(--ink);padding-top:16px;margin-bottom:28px}
+.cy .map small{display:block;font-family:var(--disp);font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--co-d);margin-bottom:8px}
+.cy .map ul{list-style:none}
+.cy .map li{padding:9px 0 9px 22px;border-top:1px solid var(--line);position:relative;font-size:.97rem}
+.cy .map li::before{content:'';position:absolute;left:2px;top:17px;width:7px;height:7px;background:var(--co);transform:rotate(45deg)}
+.cyt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cyt a{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px 26px;text-decoration:none;color:var(--ink);box-shadow:inset 0 3px 0 var(--co);transition:transform .35s var(--ease),box-shadow .35s}
+.cyt a:hover{transform:translateY(-5px);box-shadow:inset 0 3px 0 var(--co),0 24px 60px rgba(10,22,40,.10)}
+.cyt .n{font-family:var(--disp);font-weight:700;font-size:.8rem;letter-spacing:.2em;color:var(--co-d);margin-bottom:26px}
+.cyt b{font-family:var(--disp);font-size:1.5rem;font-weight:700;line-height:1.1;margin-bottom:8px}
+.cyt span{color:var(--ink2);font-size:.95rem;flex:1}
+.cyt i{font-style:normal;margin-top:16px;color:var(--co-d);font-family:var(--disp);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;display:flex;gap:8px;align-items:center}
+/* Portrait */
+.pho{width:112px;height:112px;border-radius:50%;object-fit:cover;object-position:50% 30%;border:2px solid var(--co);box-shadow:0 10px 30px rgba(10,22,40,.15);display:block}
+.idc .top{gap:22px}
+@media(max-width:1080px){.cy .g2{grid-template-columns:minmax(0,1fr);gap:40px}}
+@media(max-width:720px){.cy{padding:72px 0}.cy h2{font-size:clamp(1.8rem,7.8vw,2.35rem);line-height:1.05}.cyt{grid-template-columns:minmax(0,1fr)}.cyt a{padding:24px 20px}.pho{width:92px;height:92px}}
+
+/* ================= Design-Umschalter ================= */
+.thm{pointer-events:auto;width:42px;height:42px;border-radius:50%;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:background .2s,color .2s;flex-shrink:0}
+.thm:hover{background:rgba(10,22,40,.06)}
+.thm svg{width:19px;height:19px}
+.thm .sun{display:none}
+.thm.m{display:none;width:46px;height:46px;border:1px solid var(--line);background:rgba(255,255,255,.82);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);margin-left:auto;margin-right:8px}
+@media(max-width:1080px){.thm.m{display:inline-flex}}
+
+/* ================= Dunkelmodus: VITA Navy + Gold ================= */
+html[data-theme="dark"]{color-scheme:dark;--bg:#0A1628;--sf:#0F1E35;--sf2:#0C1A2E;--sand:#060E1E;--ink:#F0F4FF;--ink2:#B4C3DB;--line:rgba(201,168,76,.18);--co-d:#E8C97A;--co-t:rgba(201,168,76,.14)}
+html[data-theme="dark"] .thm .sun{display:block}
+html[data-theme="dark"] .thm .moon{display:none}
+html[data-theme="dark"] .thm{color:var(--co)}
+html[data-theme="dark"] .thm:hover{background:rgba(201,168,76,.12)}
+html[data-theme="dark"] .hero::before,html[data-theme="dark"] .ph::before,html[data-theme="dark"] .dark::before{background-image:linear-gradient(rgba(201,168,76,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.04) 1px,transparent 1px)}
+html[data-theme="dark"] .pill,html[data-theme="dark"] .logo,html[data-theme="dark"] .burger,html[data-theme="dark"] .thm.m{background:rgba(6,14,30,.8);border-color:rgba(201,168,76,.24);box-shadow:0 10px 30px rgba(0,0,0,.3)}
+html[data-theme="dark"] .hd.sc .pill{background:rgba(6,14,30,.94)}
+html[data-theme="dark"] .logo b{color:var(--co)}
+html[data-theme="dark"] .nl>a,html[data-theme="dark"] .nl>button{color:#C8D4E8}
+html[data-theme="dark"] .nl>a:hover,html[data-theme="dark"] .nl>button:hover,html[data-theme="dark"] .nl [aria-current]{background:rgba(201,168,76,.12);color:#fff}
+html[data-theme="dark"] .nl .dd{background:#0A1628;border-color:var(--line);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+html[data-theme="dark"] .dd a{color:#C8D4E8}
+html[data-theme="dark"] .dd a:hover{background:rgba(201,168,76,.1);color:#fff}
+html[data-theme="dark"] .cta{background:var(--co);color:#060E1E!important}
+html[data-theme="dark"] .cta:hover{background:var(--gold2);color:#060E1E!important}
+html[data-theme="dark"] .burger span{background:var(--co)}
+html[data-theme="dark"] .ov{background:#060E1E}
+html[data-theme="dark"] .ov a{color:#F0F4FF}
+html[data-theme="dark"] .btn,html[data-theme="dark"] .dark .btn,html[data-theme="dark"] .kt form .btn,html[data-theme="dark"] .pl.hl .btn,html[data-theme="dark"] .feat2.nv .btn,html[data-theme="dark"] .cband .btn,html[data-theme="dark"] .box.c .btn,html[data-theme="dark"] .ck .btn{background:var(--co);color:#060E1E;box-shadow:none}
+html[data-theme="dark"] .btn:hover,html[data-theme="dark"] .dark .btn:hover,html[data-theme="dark"] .cband .btn:hover{background:var(--gold2);color:#060E1E}
+html[data-theme="dark"] .btn.gh,html[data-theme="dark"] .hero .btn.gh,html[data-theme="dark"] .ph .btn.gh,html[data-theme="dark"] .dark .btn.gh,html[data-theme="dark"] .ck .btn.gh{background:transparent;color:var(--co);box-shadow:inset 0 0 0 1px rgba(201,168,76,.55)}
+html[data-theme="dark"] .btn.gh:hover,html[data-theme="dark"] .hero .btn.gh:hover,html[data-theme="dark"] .ph .btn.gh:hover,html[data-theme="dark"] .dark .btn.gh:hover{background:var(--co);color:#060E1E}
+html[data-theme="dark"] .chk,html[data-theme="dark"] .pl,html[data-theme="dark"] .pl.hl,html[data-theme="dark"] .feat2,html[data-theme="dark"] .feat2.nv,html[data-theme="dark"] .sm2 a,html[data-theme="dark"] .cyt a,html[data-theme="dark"] .tldr,html[data-theme="dark"] .cband .w>div,html[data-theme="dark"] .box,html[data-theme="dark"] .box.c,html[data-theme="dark"] .tb>div,html[data-theme="dark"] .tb>a,html[data-theme="dark"] .relx a,html[data-theme="dark"] .src,html[data-theme="dark"] .idc,html[data-theme="dark"] .cs,html[data-theme="dark"] .cs.nv,html[data-theme="dark"] a.feat,html[data-theme="dark"] form,html[data-theme="dark"] .ck,html[data-theme="dark"] .ok,html[data-theme="dark"] .meth,html[data-theme="dark"] .reg,html[data-theme="dark"] .chips span,html[data-theme="dark"] .towns span{background:var(--sf);border-color:var(--line)}
+html[data-theme="dark"] .std span{background:var(--sf2);border-color:var(--line)}
+html[data-theme="dark"] .chk{box-shadow:0 30px 80px rgba(0,0,0,.45)}
+html[data-theme="dark"] .opt{background:var(--bg);color:var(--ink)}
+html[data-theme="dark"] .opt:hover{background:var(--sf2);border-color:var(--co)}
+html[data-theme="dark"] .fg input,html[data-theme="dark"] .fg textarea{background:#060E1E}
+html[data-theme="dark"] .fg input:focus,html[data-theme="dark"] .fg textarea:focus{background:#060E1E;border-color:var(--co)}
+html[data-theme="dark"] .chips input:checked+span,html[data-theme="dark"] .pfil button[aria-pressed="true"],html[data-theme="dark"] .ph .chips button[aria-pressed="true"]{background:var(--co);color:#060E1E;border-color:var(--co)}
+html[data-theme="dark"] .pfil button,html[data-theme="dark"] .ph .chips button{border-color:rgba(201,168,76,.5);color:var(--ink)}
+html[data-theme="dark"] .facts3,html[data-theme="dark"] .ct>section,html[data-theme="dark"] .kpis,html[data-theme="dark"] .proof,html[data-theme="dark"] .cs .res2,html[data-theme="dark"] .cs.nv .res2,html[data-theme="dark"] .cy .map{border-top-color:var(--co)}
+html[data-theme="dark"] .ft{background:#060E1E;border-color:var(--line)}
+html[data-theme="dark"] .wm{-webkit-text-stroke:1px rgba(201,168,76,.24)}
+html[data-theme="dark"] .pho{box-shadow:0 10px 30px rgba(0,0,0,.4)}
+html[data-theme="dark"] .cyt a:hover{box-shadow:inset 0 3px 0 var(--co),0 24px 60px rgba(0,0,0,.35)}
+html[data-theme="dark"] .pl:hover,html[data-theme="dark"] .feat2:hover,html[data-theme="dark"] .cs:hover{box-shadow:0 24px 60px rgba(0,0,0,.35)}
+html[data-theme="dark"] ::selection{background:var(--co);color:#060E1E}
 </style>
 </head>
 <body><a class="skip" href="#main">Zum Inhalt</a>
@@ -921,14 +995,14 @@ img,svg{max-width:100%}
 <a href="/" class="logo" aria-label="VITA – Startseite"><img src="/vita_logo.png" alt="VITA Logo" width="40" height="34"><b>VITA</b></a>
 <nav class="pill" aria-label="Hauptnavigation">
 <div class="nl"><button type="button" aria-haspopup="true">Compliance</button><div class="dd"><a href="/governance-compliance">Governance &amp; Compliance<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/nis2-partner-oesterreich">NIS2 / NISG 2026 Österreich<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/nis2-deutschland">NIS2 Deutschland (NIS2UmsuCG)<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/iso-27001-oesterreich">ISO 27001<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/dora-beratung">DORA<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
-<div class="nl"><button type="button" aria-haspopup="true">Technologie</button><div class="dd"><a href="/cybersecurity">Cyber Security<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/ki-automatisierung">KI &amp; Automatisierung<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/business-it">Business IT (CRM &amp; ERP)<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/schulungen-support">Schulungen &amp; Support<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
+<div class="nl"><button type="button" aria-haspopup="true">Technologie</button><div class="dd"><a href="/cybersecurity">Cyber Security<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/business-it">Business IT (CRM &amp; ERP)<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/ki-automatisierung">KI &amp; Automatisierung<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/schulungen-support">Schulungen &amp; Support<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
 <div class="nl"><a href="/blog" aria-current="page">Wissen</a></div>
 <div class="nl"><a href="/projekte">Referenzen</a></div>
-<a href="/#kontakt" class="cta">Gespräch vereinbaren</a>
+<a href="/#kontakt" class="cta">Gespräch vereinbaren</a><button class="thm" type="button" aria-label="Dunkles Design aktivieren"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
 </nav>
-<button class="burger" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="ov"><span></span><span></span></button>
+<button class="thm m" type="button" aria-label="Dunkles Design aktivieren"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button><button class="burger" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="ov"><span></span><span></span></button>
 </div></header>
-<div class="ov" id="ov"><b>Compliance</b><a href="/governance-compliance">Governance &amp; Compliance</a><a href="/nis2-partner-oesterreich">NIS2 / NISG 2026 Österreich</a><a href="/nis2-deutschland">NIS2 Deutschland (NIS2UmsuCG)</a><a href="/iso-27001-oesterreich">ISO 27001</a><a href="/dora-beratung">DORA</a><b>Technologie</b><a href="/cybersecurity">Cyber Security</a><a href="/ki-automatisierung">KI &amp; Automatisierung</a><a href="/business-it">Business IT (CRM &amp; ERP)</a><a href="/schulungen-support">Schulungen &amp; Support</a><b>Mehr</b><a href="/blog">Wissen</a><a href="/projekte">Referenzen</a><a href="/#kontakt">Kontakt</a></div>
+<div class="ov" id="ov"><b>Compliance</b><a href="/governance-compliance">Governance &amp; Compliance</a><a href="/nis2-partner-oesterreich">NIS2 / NISG 2026 Österreich</a><a href="/nis2-deutschland">NIS2 Deutschland (NIS2UmsuCG)</a><a href="/iso-27001-oesterreich">ISO 27001</a><a href="/dora-beratung">DORA</a><b>Technologie</b><a href="/cybersecurity">Cyber Security</a><a href="/business-it">Business IT (CRM &amp; ERP)</a><a href="/ki-automatisierung">KI &amp; Automatisierung</a><a href="/schulungen-support">Schulungen &amp; Support</a><b>Mehr</b><a href="/blog">Wissen</a><a href="/projekte">Referenzen</a><a href="/#kontakt">Kontakt</a></div>
 <main id="main">
 <section class="ph"><div class="w">
 <nav class="bc" aria-label="Brotkrumen"><a href="/">Start</a> / Wissen</nav>
@@ -967,7 +1041,7 @@ var pg=d.querySelector('.prog'),ar=d.querySelector('.art .ct');if(pg&&ar)addEven
 <footer class="ft"><div class="w"><div class="g">
 <div><p class="tag2">Technologie. Sicherheit. Zukunft.</p><p class="claim">Sicherheit, die man belegen kann.</p><p><a href="tel:+436701848382">+43 670 1 84 83 82</a><br><a href="mailto:md@wearevita.tech">md@wearevita.tech</a><br>Salzburg · Oberösterreich · österreichweit</p></div>
 <div><b>Compliance</b><ul><li><a href="/governance-compliance">Governance &amp; Compliance</a></li><li><a href="/nis2-partner-oesterreich">NIS2 / NISG 2026 Österreich</a></li><li><a href="/nis2-deutschland">NIS2 Deutschland (NIS2UmsuCG)</a></li><li><a href="/iso-27001-oesterreich">ISO 27001</a></li><li><a href="/dora-beratung">DORA</a></li><li><a href="/blog-nisg-2026-fristen">NISG 2026 Fristen</a></li></ul></div>
-<div><b>Technologie</b><ul><li><a href="/cybersecurity">Cyber Security</a></li><li><a href="/ki-automatisierung">KI &amp; Automatisierung</a></li><li><a href="/business-it">Business IT (CRM &amp; ERP)</a></li><li><a href="/schulungen-support">Schulungen &amp; Support</a></li></ul></div>
+<div><b>Technologie</b><ul><li><a href="/cybersecurity">Cyber Security</a></li><li><a href="/business-it">Business IT (CRM &amp; ERP)</a></li><li><a href="/ki-automatisierung">KI &amp; Automatisierung</a></li><li><a href="/schulungen-support">Schulungen &amp; Support</a></li></ul></div>
 <div><b>Region Salzburg</b><ul><li><a href="/nis2-beratung-salzburg">NIS2-Beratung Salzburg</a></li><li><a href="/cybersecurity-salzburg">Cybersecurity Salzburg</a></li><li><a href="/it-dienstleister-salzburg">IT-Dienstleister Salzburg</a></li><li><a href="/it-support-salzburg">IT-Support Salzburg</a></li></ul></div>
 </div>
 <div class="bot"><span>© 2026 Vita Energy GmbH · FN 409166 s · HG Salzburg · ATU68473902</span><nav aria-label="Rechtliches"><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="/agb">AGB</a><a href="/projekte">Referenzen</a></nav></div>
@@ -982,4 +1056,12 @@ c.querySelectorAll('button').forEach(function(b){b.addEventListener('click',func
 <script>(function(){var bs=document.querySelectorAll('.chips button'),rs=document.querySelectorAll('.bl a, a.feat');
 bs.forEach(function(b){b.addEventListener('click',function(){var f=b.getAttribute('data-f');bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
 rs.forEach(function(r){r.hidden=!(f==='all'||r.getAttribute('data-cat')===f)})})})})();</script>
+<script>
+(function(){var h=document.documentElement,m=document.querySelector('meta[name="theme-color"]');
+function set(t){h.setAttribute('data-theme',t);try{localStorage.setItem('vita-theme',t)}catch(e){}if(m)m.setAttribute('content',t==='dark'?'#0A1628':'#F7F5F0');
+ document.querySelectorAll('.thm').forEach(function(b){b.setAttribute('aria-label',t==='dark'?'Helles Design aktivieren':'Dunkles Design aktivieren')})}
+set(h.getAttribute('data-theme')||'light');
+document.querySelectorAll('.thm').forEach(function(b){b.addEventListener('click',function(){set(h.getAttribute('data-theme')==='dark'?'light':'dark')})});
+})();
+</script>
 </body></html>

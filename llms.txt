@@ -1,19 +1,19 @@
 # VITA – Visionary Information Technology Austria
 
-> VITA ist spezialisiert auf Governance, Compliance und Informationssicherheit für Unternehmen in Österreich und Deutschland. Schwerpunkt ist die Umsetzung von NIS2 – in Österreich nach dem NISG 2026, in Deutschland nach dem NIS2UmsuCG (BSI-Gesetz) – sowie ISO/IEC 27001, DORA und DSGVO. VITA übernimmt auch die Rolle des externen Informationssicherheitsbeauftragten. Ergänzend setzt VITA KI-Automatisierung, Business IT (CRM und ERP), Cybersecurity sowie Schulungen und IT-Support um. Sitz: Salzburg, Österreich.
+> VITA ist spezialisiert auf Governance, Compliance und Informationssicherheit für Unternehmen in Österreich und Deutschland. Schwerpunkt ist die Umsetzung von NIS2 – in Österreich nach dem NISG 2026, in Deutschland nach dem NIS2UmsuCG (BSI-Gesetz) – sowie ISO/IEC 27001, DORA und DSGVO. VITA übernimmt auch die Rolle des externen Informationssicherheitsbeauftragten. Darauf aufbauend setzt VITA Cyber Security, Business IT (CRM und ERP), KI-Automatisierung sowie Schulungen und IT-Support um. Sitz: Salzburg, Österreich.
 
 ## Kernkompetenz
 
-- Governance: Rollen, Berichtswege, Risikosteuerung, externer Informationssicherheitsbeauftragter, Leitungsschulung nach NIS2 / NISG
+- Governance: strategische IT-Steuerung, Rollen, Berichtswege, Risikosteuerung, externer Informationssicherheitsbeauftragter, Leitungsschulung nach NIS2 / NISG
 - Compliance: NIS2 / NISG 2026 (Österreich), NIS2UmsuCG (Deutschland), ISO/IEC 27001:2022, DORA, DSGVO – in einem gemeinsamen Managementsystem
 - Informationssicherheit: ISMS-Aufbau und Betrieb, Risikobeurteilung, Business Continuity, Incident Response und Meldewege (24 h / 72 h / 1 Monat)
 - Methodik orientiert an ISO/IEC 27001, ISO/IEC 27005, ISO 22301 und BSI IT-Grundschutz; jede Rechtsaussage mit Stand und amtlicher Quelle
 
 ## Weitere Leistungen
 
-- KI & Automatisierung: KI-Assistenten auf eigenen Daten (Retrieval-Augmented Generation), Dokumenten-KI, Prozessautomatisierung, DSGVO-konforme Architektur
-- Business IT: CRM- und ERP-Auswahl, Einführung, Migration und Integration; Erfahrung mit internationalen Rollouts über 18 Länderorganisationen
 - Cyber Security: Penetrationstests, Härtung, Monitoring, Incident Response
+- Business IT: CRM- und ERP-Auswahl, Einführung, Migration und Integration; Erfahrung mit internationalen Rollouts über 18 Länderorganisationen
+- KI & Automatisierung: KI-Assistenten auf eigenen Daten (Retrieval-Augmented Generation), Dokumenten-KI, Prozessautomatisierung, DSGVO-konforme Architektur
 - Schulungen & Support: Leitungsschulung, Security-Awareness, Helpdesk, Vor-Ort-Einsätze, 24/7-IT-Notdienst
 
 ## Einsatzgebiet
