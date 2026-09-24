@@ -776,6 +776,144 @@ a{color:var(--co-d)}
 .cs[hidden]{display:none}
 @media(max-width:1080px){.meth .g2{grid-template-columns:minmax(0,1fr);gap:40px}.cs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.dl2,.cs-grid{grid-template-columns:minmax(0,1fr)}.kpis{grid-template-columns:1fr 1fr;row-gap:22px}.kpis div:nth-child(3){padding-left:0;border-left:0}.meth,.refs3{padding:84px 0}}
+
+/* ================= Variante I: durchgehend hell ================= */
+:root{--sand:#EFEBE2}
+.dark,.inc,.kt{background:var(--sand)!important;color:var(--ink)}
+.dark::before{background-image:linear-gradient(rgba(10,22,40,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(10,22,40,.03) 1px,transparent 1px)}
+.dark .lbl{color:var(--co-d)}
+.dark .l,.inc .l,.kt .l{color:var(--ink2)}
+.inc h2,.kt h2,.dark h2{color:var(--ink)}
+.itl-g b{color:var(--ink)}.inc .itl-g h3{color:var(--ink)!important}.itl-g p{color:var(--ink2)}
+.itl-bar{background:var(--line)}.itl-g>div::before{background:var(--sand)}
+.dark .btn,.kt form .btn{background:var(--ink);color:#fff}
+.dark .btn:hover{background:var(--co);color:var(--ink)}
+.dark .btn.gh{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.dark .btn.gh:hover{background:var(--ink);color:#fff}
+.kt dl dt{color:var(--ink2)}.kt dl dd,.kt dl dd a{color:var(--ink)}.kt dl dd a:hover{color:var(--co-d)}
+form{background:#fff;border-color:var(--line);box-shadow:0 20px 50px rgba(10,22,40,.06)}
+.fl{color:var(--ink2)}.fg label{color:var(--ink)}
+.fg input,.fg textarea{background:var(--bg);border-color:var(--line);color:var(--ink)}
+.fg input:focus,.fg textarea:focus{background:#fff;border-color:var(--ink);box-shadow:0 0 0 4px rgba(201,168,76,.22)}
+.fc{color:var(--ink2)}.fc a{color:var(--co-d)}
+.chips span{border-color:var(--line);color:var(--ink);background:#fff}
+.chips input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.ok{background:#fff;border-color:var(--line);color:var(--ink)}
+.ft{background:var(--sand);color:var(--ink2);border-top:1px solid var(--line)}
+.ft .claim{color:var(--ink)}.ft b,.ft .tag2{color:var(--co-d)}
+.ft a{color:var(--ink2)}.ft a:hover{color:var(--ink)}
+.ft .g,.ft .bot{border-color:var(--line)}
+.wm{-webkit-text-stroke:1px rgba(10,22,40,.10)}
+.pl.hl{background:#fff;color:var(--ink);border-color:rgba(201,168,76,.55);box-shadow:inset 0 3px 0 var(--co)}
+.pl.hl>p{color:var(--ink2)}.pl.hl li a{color:var(--ink)}.pl.hl li{border-color:var(--line)!important}
+.pl.hl .n{color:var(--co-d)}.pl.hl .btn{background:var(--ink);color:#fff}
+.feat2.nv{background:#fff;color:var(--ink);border-color:var(--line)}
+.feat2.nv>p,.feat2.nv .proof span{color:var(--ink2)}.feat2.nv li{border-color:var(--line)}
+.feat2.nv .n{color:var(--co-d)}.feat2.nv .proof{border-color:var(--ink)}.feat2.nv .proof b{color:var(--ink)}
+.feat2.nv .btn{background:var(--ink);color:#fff}
+.feat2{box-shadow:inset 0 3px 0 var(--co)}
+.tldr{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--co);box-shadow:0 20px 50px rgba(10,22,40,.06)}
+.tldr li{border-color:var(--line)}.tldr .lbl{color:var(--co-d)}.tldr .st{color:var(--ink2)}
+.cband .w>div{background:#fff;border:1px solid var(--line);border-top:3px solid var(--co)}
+.cband .w>div::before{display:none}
+.cband h2{color:var(--ink)}.cband p{color:var(--ink2)}
+.cband .btn,.cband .btn.wh{background:var(--ink);color:#fff;box-shadow:none}
+.cband .btn:hover{background:var(--co);color:var(--ink)}
+.box.c{background:#fff;border-color:var(--line);border-top:3px solid var(--co)}
+.box.c h2{color:var(--ink)}.box.c p{color:var(--ink2)}.box.c .btn{background:var(--ink);color:#fff}
+a.feat{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--co)}
+a.feat p{color:var(--ink2)}a.feat small{color:var(--co-d)}a.feat .meta{color:var(--ink2)}
+.cs.nv{background:#fff;color:var(--ink);border-color:var(--line)}
+.cs{box-shadow:inset 0 3px 0 var(--co)}
+.cs.nv .ctx,.cs.nv dd{color:var(--ink2)}.cs.nv dt{color:var(--ink)}.cs.nv .tg{color:var(--co-d)}
+.cs.nv .res2{border-color:var(--ink);color:var(--ink)}.cs.nv .chips2 span{border-color:var(--line);color:var(--ink2)}
+.av{background:#fff;color:var(--co-d);border:1.5px solid var(--co)}
+.ck{background:#fff;color:var(--ink2);border-color:var(--line);box-shadow:0 20px 50px rgba(10,22,40,.14)}
+.ck a{color:var(--co-d)}.ck .btn.gh{color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.ck .btn{background:var(--ink);color:#fff}
+
+/* ================= Smartphone ================= */
+html{scroll-padding-top:96px;-webkit-tap-highlight-color:rgba(201,168,76,.18)}
+html.menu-open{overflow:hidden}
+img,svg{max-width:100%}
+@media(max-width:720px){
+ html{scroll-padding-top:84px}
+ body{font-size:16px}
+ .w{padding:0 20px}
+ .hd{top:10px}
+ .logo{padding:5px 14px 5px 6px}.logo img{height:30px}.logo b{font-size:1.05rem}
+ .burger{width:46px;height:46px}
+ .ov{padding:92px 24px 40px}.ov a{font-size:1.45rem;padding:9px 0;border-bottom:1px solid var(--line)}
+ .hero{padding:104px 0 56px}
+ .hero .w{gap:36px}
+ .brand{gap:12px;margin-bottom:20px}.brand img{height:42px}.brand b{font-size:1.05rem;letter-spacing:.4em}.brand span{font-size:.62rem;letter-spacing:.16em}
+ .lbl{font-size:.72rem;letter-spacing:.14em;margin-bottom:16px}
+ .hero h1{font-size:clamp(2.05rem,9.2vw,2.7rem);line-height:1.02;margin-bottom:18px}
+ .hero .l,.ph .l{font-size:1.04rem;margin-bottom:24px}
+ .acts{flex-direction:column;align-items:stretch}.acts .btn{width:100%;justify-content:center}
+ .res .acts{flex-direction:row}.res .acts .btn{width:auto;flex:1}
+ .hero .meta2{grid-template-columns:minmax(0,1fr);gap:0;margin-top:30px;padding-top:0}
+ .hero .meta2 div{display:flex;align-items:baseline;gap:14px;padding:12px 0;border-top:1px solid var(--line);font-size:.93rem}
+ .hero .meta2 b{font-size:1.5rem;min-width:74px}
+ .chk{padding:22px 18px}.chk-h b{font-size:1.2rem}.q h3{font-size:1.02rem}
+ .opt{padding:14px;font-size:.95rem}
+ .reg{padding:20px 0}.reg ul{gap:8px 18px}.reg li{font-size:.98rem}
+ .ph{padding:104px 0 44px}
+ .ph h1{font-size:clamp(1.95rem,8.6vw,2.55rem);line-height:1.04}
+ .phg{gap:28px}.tldr{padding:22px}
+ .core,.dig,.meth,.refs3,.stm,.story,.inc,.who,.kt{padding:72px 0}
+ .kn{padding:72px 0!important}.fq{padding:0 0 72px!important}
+ .core-h,.dig-h{margin-bottom:30px}
+ .core-h h2,.dig-h h2,.meth h2,.refs3 h2,.inc h2,.who h2,.kt h2,.fq h2,.kn-h h2,.st-l h2,.rail-h h2{font-size:clamp(1.8rem,7.8vw,2.35rem);line-height:1.05}
+ .stm p.big{font-size:clamp(1.65rem,7vw,2.1rem);line-height:1.1}
+ .facts3{margin-top:40px}.facts3 b{font-size:2.1rem}
+ .pl{padding:26px 22px}.pl .n{margin-bottom:22px}.pl h3{font-size:1.7rem}
+ .pl li a,.pl li span{padding:13px 0}
+ .feat2{padding:26px 22px}.feat2 h3{font-size:1.75rem}.proof b{font-size:2.1rem}
+ .sm2 a{padding:22px}
+ .stp{padding:22px 0}.stp h3{font-size:1.6rem}
+ .itl{margin-top:40px}.itl-g{row-gap:26px}.itl-g b{font-size:2.1rem}
+ .inc .more,.meth .std{gap:8px}
+ .idc{padding:24px 20px}.av{width:60px;height:60px;font-size:1.25rem}.idc h3{font-size:1.4rem}
+ .cv li{grid-template-columns:minmax(0,1fr) auto;font-size:.93rem}
+ .dl2 div{padding:14px 0}
+ .cs{padding:24px 20px}.cs h3{font-size:1.35rem}
+ .kl a{padding:20px 0}.kl b{font-size:1.25rem}
+ .faq summary{font-size:1.12rem;padding:20px 40px 20px 0}.faq details p{padding:0 0 22px}
+ .kt .w{gap:36px}.kt h2{margin-bottom:16px}.kt dl dd{font-size:1.25rem}
+ form{padding:22px 18px}
+ .fg input,.fg textarea{font-size:16px;padding:14px}
+ .chips span{padding:10px 14px}
+ .body{padding:20px 20px 60px}
+ .ct>section{margin-bottom:48px}.ct>section>h2{font-size:1.7rem}
+ .tb>div,.tb>a{padding:20px}
+ .relx{padding-bottom:72px}.relx a{min-height:0;padding:22px}
+ .cband{padding-bottom:72px}.cband .w>div{padding:30px 22px}.cband h2{font-size:1.75rem}
+ .cband .btn{width:100%;justify-content:center}
+ .art .lead{font-size:1.3rem}.art .ct{font-size:1.04rem}
+ .kpis b{font-size:2.1rem}
+ .pfil{gap:6px}.pfil button{padding:10px 13px}
+ .ft{padding-top:60px}.ft .g{gap:26px;padding-bottom:36px}.ft li a{display:inline-block;padding:5px 0}
+ .ft .bot{flex-direction:column}.ft .bot nav{display:flex;flex-wrap:wrap;gap:6px 18px}.ft .bot nav a{margin:0;padding:6px 0}
+ .ck{left:10px;right:10px;bottom:10px;max-width:none;padding:16px}.ck .btn{flex:1;justify-content:center}
+ .bc{margin-bottom:18px}
+ .ft li a,.ft .bot nav a{display:inline-flex;align-items:center;min-height:44px;padding:0}
+ .ft li{margin-bottom:0}
+ .src li a{display:inline-block;padding:10px 0}
+ .brand span{font-size:.75rem;letter-spacing:.12em}
+ .lbl,.reg small,.tldr .lbl{font-size:.78rem}
+ .pl li a,.kl a,.opt{min-height:48px}
+ .ck .btn{min-height:46px}
+ .hero .brand{display:none}
+ .hero .meta2 b{white-space:nowrap;min-width:84px}
+ .chk-h{flex-wrap:wrap;gap:4px 12px}
+}
+@media(max-width:380px){
+ .w{padding:0 16px}.body{padding:16px 16px 56px}
+ .hero h1{font-size:2rem}.ph h1{font-size:1.9rem}
+ .brand span{font-size:.72rem;letter-spacing:.08em}
+ .res .acts{flex-direction:column}.res .acts .btn{width:100%}
+}
 </style>
 </head>
 <body><a class="skip" href="#main">Zum Inhalt</a>
@@ -805,8 +943,8 @@ a{color:var(--co-d)}
 <div class="chk-h"><b>NIS2 / NISG-Schnellcheck</b><span id="c-step">Frage 1 von 3</span></div>
 <div class="bar"><i id="c-bar"></i></div>
 <div class="q on" data-q="1"><h3>In welchem Bereich ist Ihr Unternehmen tätig?</h3>
-<button class="opt" data-v="a1">Hohe Kritikalität<small>Energie, Verkehr, Bank- und Finanzwesen, Gesundheit, Wasser, digitale Infrastruktur, IKT-Dienste, Verwaltung</small></button>
-<button class="opt" data-v="a2">Sonstige kritische Sektoren<small>Chemie, Lebensmittel, Produktion, Post, Abfall, digitale Dienste, Forschung</small></button>
+<button class="opt" data-v="a1">Hohe Kritikalität<small>Energie, Verkehr, Bankwesen, Finanzmarktinfrastrukturen, Gesundheit, Trink- und Abwasser, digitale Infrastruktur, IKT-Dienste, öffentliche Verwaltung, Weltraum</small></button>
+<button class="opt" data-v="a2">Sonstige kritische Sektoren<small>Post- und Kurierdienste, Abfallbewirtschaftung, Chemie, Lebensmittel, verarbeitendes Gewerbe, Anbieter digitaler Dienste, Forschung</small></button>
 <button class="opt" data-v="x">Keiner davon</button></div>
 <div class="q" data-q="2"><h3>Wie groß ist Ihr Unternehmen – inklusive Konzern?</h3>
 <button class="opt" data-v="s">Unter 50 Beschäftigte<small>und höchstens 10 Mio.&nbsp;€ Umsatz oder Bilanzsumme</small></button>
@@ -828,19 +966,19 @@ a{color:var(--co-d)}
 
 <section class="core" id="kern"><div class="w">
 <div class="core-h"><div><span class="lbl">Unsere Kernkompetenz</span><h2 data-split>Governance. Compliance. Informations&shy;sicherheit.</h2></div>
-<p>Hier liegt unser Schwerpunkt – und hier gehen wir tiefer als die meisten. Drei Disziplinen, die wir nicht getrennt denken, sondern in einem Managementsystem zusammenführen.</p></div>
+<p>Hier liegt unser Schwerpunkt – und hier gehen wir tiefer als die meisten. Drei Disziplinen, die wir nicht getrennt denken, sondern in einem Management&shy;system zusammenführen.</p></div>
 <div class="pil"><div class="pl"><span class="n">01</span><h3>Governance</h3><p>Klare Verantwortung – von der Geschäfts&shy;führung bis zum Fachbereich.</p><ul><li><a href="/governance-compliance">Rollen und Berichtswege<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/governance-compliance">Externer Informationssicherheitsbeauftragter<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/schulungen-support">Leitungsschulung nach §&nbsp;31 NISG<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/blog-it-governance-kmu">Risikosteuerung und Managementbewertung<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li></ul><a href="/governance-compliance" class="btn sm">Governance <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="pl hl"><span class="n">02</span><h3>Compliance</h3><p>Alle Regelwerke in einem System – statt vier parallelen Projekten.</p><ul><li><a href="/nis2-partner-oesterreich">NIS2 / NISG 2026 (Österreich)<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/nis2-deutschland">NIS2 / NIS2UmsuCG (Deutschland)<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/iso-27001-oesterreich">ISO 27001<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/dora-beratung">DORA<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/governance-compliance">DSGVO im selben System<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li></ul><a href="/nis2-partner-oesterreich" class="btn sm">Compliance <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="pl"><span class="n">03</span><h3>Informations&shy;sicherheit</h3><p>Schutz, der wirkt – und sich jederzeit belegen lässt.</p><ul><li><a href="/iso-27001-oesterreich">ISMS-Aufbau und Betrieb<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/iso-27001-oesterreich">Risikoanalyse und Maßnahmen<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/governance-compliance">Business Continuity und Notfallvorsorge<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li><li><a href="/blog-nis2-meldepflicht">Incident Response und Meldewege<svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li></ul><a href="/iso-27001-oesterreich" class="btn sm">Informationssicherheit <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
 </div></section>
 
 
 <section class="dig" id="digitalisierung"><div class="w">
 <div class="dig-h"><div><span class="lbl">Digitalisierung</span><h2 data-split>KI und Business IT – mit demselben Anspruch.</h2></div>
-<p>Governance endet nicht beim Richtlinienordner. Wir setzen die Systeme um, die Ihr Geschäft tragen – sicher geplant, sauber integriert und von Anfang an nachweisfähig.</p></div>
+<p>Wir setzen die Systeme um, die Ihr Geschäft tragen – sicher geplant, sauber integriert und von Anfang an nachweisfähig.</p></div>
 <div class="dgrid">
 <a href="/ki-automatisierung" class="feat2" style="text-decoration:none;color:inherit"><span class="n">KI &amp; AUTOMATISIERUNG</span><h3>KI, die arbeitet.</h3>
 <p>Assistenten auf Ihren eigenen Dokumenten, automatisch ausgelesene Belege, Abläufe ohne Copy-and-paste. Mit klarer Datenhoheit und geregelter Verantwortung.</p>
 <ul><li>Assistenten und Chatbots auf eigenen Daten</li><li>Dokumenten-KI und Texterkennung</li><li>Prozessautomatisierung und Schnittstellen</li><li>DSGVO-konforme Architektur</li></ul>
-<div class="proof"><b>Wochen</b><span>statt Monate bis zum ersten produktiven Proof of Concept</span></div>
+<div class="proof"><b>Live</b><span>Eigener KI-Assistent im Echtbetrieb – testen Sie ihn auf dieser Website</span></div>
 <span class="btn sm">KI &amp; Automatisierung <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
 <a href="/business-it" class="feat2 nv" style="text-decoration:none"><span class="n">BUSINESS IT · CRM &amp; ERP</span><h3>Eine Wahrheit für Ihre Daten.</h3>
 <p>CRM und ERP auswählen, einführen, migrieren und verbinden – bis Kunden-, Auftrags- und Finanzdaten einmal gepflegt und überall richtig sind.</p>
@@ -855,17 +993,17 @@ a{color:var(--co-d)}
 </div>
 </div></section>
 <section class="stm"><div class="w">
-<span class="lbl">Die eigentliche Herausforderung</span>
-<p class="big" data-split>Die meisten Unternehmen haben kein Sicherheits&shy;problem. Sie haben ein <em>Nachweis&shy;problem.</em></p>
+<span class="lbl">Ausgangslage</span>
+<p class="big" data-split>Informations&shy;sicherheit muss heute <em>nachweisbar</em> sein – gegenüber Behörde, Auditor und Kunden.</p>
 <div class="facts3">
-<div><b>1 System</b><p>für NIS2, ISO 27001, DORA und DSGVO – statt vier Ordnern, vier Projekten und vier Zuständigen.</p></div>
+<div><b>1 System</b><p>für NIS2 / NISG, ISO 27001, DORA und DSGVO: eine Risikobeurteilung, ein Richtlinien&shy;werk, klare Verantwortung.</p></div>
 <div><b>24 h</b><p>Frühwarnfrist bei erheblichen Sicherheitsvorfällen nach NIS2 / NISG – in Österreich wie in Deutschland.</p></div>
-<div><b>2&nbsp;%</b><p>des weltweiten Umsatzes oder 10 Mio.&nbsp;€ – der Strafrahmen für wesentliche bzw. besonders wichtige Einrichtungen.</p></div>
+<div><b>10 Mio.&nbsp;€</b><p>oder 2&nbsp;% des weltweiten Jahres&shy;umsatzes: Strafrahmen für wesentliche bzw. besonders wichtige Einrichtungen.</p></div>
 </div>
 </div></section>
 
 <section class="story" id="vorgehen"><div class="w">
-<div class="st-l"><span class="lbl">Vorgehen</span><h2>Vom Anspruch zum System.</h2><div class="st-num" id="st-num">01</div><div class="st-dots"><i class="on"></i><i></i><i></i><i></i></div></div>
+<div class="st-l"><span class="lbl">Vorgehen</span><h2>Vorgehen in vier Phasen.</h2><div class="st-num" id="st-num">01</div><div class="st-dots"><i class="on"></i><i></i><i></i><i></i></div></div>
 <div class="st-r">
 <div class="stp on" data-n="01"><span class="k">Start</span><h3>Einordnen</h3><p>Welche Regelwerke gelten, was erwarten Kunden und Behörden, wo stehen Sie heute? Klar dokumentiert, damit die Leitung entscheiden kann.</p><ul><li>Betroffenheit und Anforderungen</li><li>Kurze Bestandsaufnahme</li></ul></div>
 <div class="stp" data-n="02"><span class="k">Fahrplan</span><h3>Planen</h3><p>Gap-Analyse und ein Fahrplan, der nach Risiko priorisiert – nicht nach Vorlage.</p><ul><li>Maßnahmen mit Verantwortlichen und Terminen</li><li>Entscheidungsvorlage für die Geschäftsführung</li></ul></div>
@@ -876,8 +1014,8 @@ a{color:var(--co-d)}
 
 
 <section class="dark inc"><div class="w">
-<span class="lbl">Im Ernstfall</span>
-<h2 data-split>Der Vorfall ist nicht das Problem. Die ersten 24 Stunden sind es.</h2>
+<span class="lbl">Meldepflichten</span>
+<h2 data-split>Im Ernstfall zählen die ersten 24 Stunden.</h2>
 <p class="l">NIS2 / NISG in Österreich und das BSI-Gesetz in Deutschland geben für erhebliche Sicherheitsvorfälle drei Meldestufen vor. Wir sorgen dafür, dass Zuständigkeiten, Meldewege und Entscheidungen feststehen, bevor Sie sie brauchen.</p>
 <div class="itl"><div class="itl-bar"><i></i></div>
 <div class="itl-g">
@@ -893,7 +1031,7 @@ a{color:var(--co-d)}
 <div>
 <span class="lbl">Wer berät</span>
 <h2 data-split>Beratung aus der Praxis.</h2>
-<p class="l">Wir kennen Informations&shy;sicherheit nicht aus Seminarunterlagen, sondern aus eigener Verantwortung – mit Audits, Fristen und Gesprächen mit der Geschäfts&shy;führung.</p>
+<p class="l">Ihr Ansprechpartner ist selbst als Informations&shy;sicherheits&shy;beauftragter tätig und verantwortet die Umsetzung von NIS2 / NISG in der Praxis – von der Risikobeurteilung bis zur Freigabe durch die Geschäfts&shy;führung.</p>
 <ol class="prn">
 <li>Beratung und Zertifizierung bleiben getrennt.</li>
 <li>Jede Rechtsaussage mit Stand und amtlicher Quelle.</li>
@@ -904,9 +1042,9 @@ a{color:var(--co-d)}
 <div class="idc">
 <div class="top"><div class="av" aria-hidden="true">MD</div><div><h3>Marko Djurasinovic</h3><p class="role">Governance, Compliance &amp; Informations&shy;sicherheit</p></div></div>
 <ul class="cv">
-<li><div>Informationssicherheitsbeauftragter</div><em>Praxis</em></li>
-<li><div>ISO 27001 Manager &amp; Auditor</div><em>2027</em></li>
-<li><div>MA Information Security Management</div><em>2027</em></li>
+<li><div>Informationssicherheitsbeauftragter</div><em>aktuell</em></li>
+<li><div>ISO 27001 Certified Manager &amp; Auditor</div><em>Abschluss 2027</em></li>
+<li><div>MA Information Security Management</div><em>Abschluss 2027</em></li>
 <li><div>BSc Informationstechnik &amp; System-Management</div><em>FH Salzburg</em></li>
 </ul>
 <div class="acts" style="margin-top:22px;position:relative;z-index:1"><a href="#kontakt" class="btn sm">Kennenlernen <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
@@ -915,33 +1053,33 @@ a{color:var(--co-d)}
 
 
 <section class="meth" id="methodik"><div class="w g2">
-<div><span class="lbl">Methodik</span><h2 data-split>Kompetenz, die man prüfen kann.</h2>
+<div><span class="lbl">Methodik</span><h2 data-split>Methodik und Ergebnisse.</h2>
 <p class="l">Wir arbeiten nach anerkannten Standards – und liefern Ergebnisse, die Auditoren, Behörden und Kunden sofort einordnen können.</p>
 <div class="std"><span>ISO/IEC 27001</span><span>ISO/IEC 27005</span><span>ISO 22301</span><span>BSI IT-Grundschutz</span><span>NIS2 / NISG 2026</span><span>NIS2UmsuCG</span><span>DORA</span><span>DSGVO</span></div></div>
 <div><div class="dl2">
 <div><p><b>Betroffenheits&shy;analyse</b><span>Einstufung nach Sektor, Größe und Konzernverbund – dokumentiert</span></p></div>
 <div><p><b>Gap-Analyse</b><span>Ist-Stand gegen die Mindest&shy;maßnahmen, priorisiert nach Risiko</span></p></div>
 <div><p><b>Risikobeurteilung</b><span>Am Geschäftsprozess, nicht an der Tabelle</span></p></div>
-<div><p><b>Richtlinienwerk</b><span>Schlank, freigabefähig, im Alltag gelebt</span></p></div>
+<div><p><b>Richtlinien&shy;werk</b><span>Schlank, freigabefähig, im Alltag gelebt</span></p></div>
 <div><p><b>Notfall- und Meldeprozesse</b><span>Business Continuity und Meldewege für 24 und 72 Stunden</span></p></div>
-<div><p><b>Nachweisführung</b><span>Selbst&shy;deklaration, Zertifi&shy;zierungsaudit, Kundenanfragen</span></p></div>
+<div><p><b>Nachweisführung</b><span>Selbst&shy;deklaration, Zertifi&shy;zierungs&shy;audit, Kundenanfragen</span></p></div>
 </div></div>
 </div></section>
-<section class="refs3"><div class="w"><div class="hd2"><div><span class="lbl">Referenzen</span><h2 data-split>Erfahrung, die trägt.</h2></div><a href="/projekte" class="btn gh">Alle Projekte <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="cs-grid"><article class="cs nv" data-cat="gov"><span class="tg">Governance & Compliance</span><h3>NIS2 / NISG-Readiness für eine Unternehmens&shy;gruppe in Österreich und Deutschland</h3><p class="ctx">Pharmaindustrie · mehrere Gesellschaften · Geschäfts&shy;führung als Auftraggeber</p><dl><dt>Ausgangslage</dt><dd>Zwei Rechtsordnungen, unterschiedliche Fristen, kein durchgängiges Managementsystem.</dd><dt>Umsetzung</dt><dd>Gemeinsames ISMS mit Risikobeurteilung, Richtlinienwerk und Business-Continuity-Management; länderspezifische Ergänzungen für NISG 2026 und NIS2UmsuCG.</dd></dl><p class="res2"><b>Ergebnis:</b> Freigabefähige Dokumentation für beide Geschäfts&shy;führungen und ein Fahrplan bis zur Selbst&shy;deklaration.</p><div class="chips2"><span>NIS2 / NISG 2026</span><span>NIS2UmsuCG</span><span>ISO 27001</span><span>BCM</span></div></article><article class="cs" data-cat="bit"><span class="tg">Business IT</span><h3>Internationale CRM-Transformation über 18 Länder&shy;organisationen</h3><p class="ctx">Rund 350 Anwender&shy;innen und Anwender · Vertrieb und Außendienst</p><dl><dt>Ausgangslage</dt><dd>Historisch gewachsene CRM-Landschaft mit uneinheitlichen Prozessen und Daten je Land.</dd><dt>Umsetzung</dt><dd>Gap-Analyse für das Management, Zielprozesse, Datenmigration, Rollen- und Rechtekonzept, koordinierter Rollout.</dd></dl><p class="res2"><b>Ergebnis:</b> Einheitliche Plattform und saubere Stammdaten – umgesetzt ohne Betriebsunterbrechung.</p><div class="chips2"><span>CRM</span><span>Migration</span><span>Rollout</span></div></article><article class="cs nv" data-cat="ki"><span class="tg">KI & Automatisierung</span><h3>KI-Assistent auf eigenem Unternehmenswissen</h3><p class="ctx">Eigenentwicklung · live im Einsatz auf dieser Website</p><dl><dt>Ausgangslage</dt><dd>Fachfragen sollen rund um die Uhr kompetent beantwortet werden – ohne Wissen unkontrolliert preiszugeben.</dd><dt>Umsetzung</dt><dd>Retrieval-Augmented-Generation-Architektur mit Vektordatenbank, Rollen- und Rechtekonzept und klaren Antwortgrenzen; mandantenfähig als White-Label-Plattform.</dd></dl><p class="res2"><b>Ergebnis:</b> VALI beantwortet Fragen zu NIS2 / NISG und ISO 27001 – testen Sie ihn rechts unten.</p><div class="chips2"><span>KI</span><span>Retrieval-Augmented Generation</span><span>Datenhoheit</span></div></article></div></div></section><section class="kn alt" style="padding:120px 0"><div class="w">
+<section class="refs3"><div class="w"><div class="hd2"><div><span class="lbl">Referenzen</span><h2 data-split>Ausgewählte Referenzen.</h2></div><a href="/projekte" class="btn gh">Alle Projekte <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="cs-grid"><article class="cs nv" data-cat="gov"><span class="tg">Governance & Compliance</span><h3>NIS2 / NISG-Readiness für eine Unternehmens&shy;gruppe in Österreich und Deutschland</h3><p class="ctx">Pharmaindustrie · mehrere Gesellschaften · Geschäfts&shy;führung als Auftraggeber</p><dl><dt>Ausgangslage</dt><dd>Zwei Rechtsordnungen, unterschiedliche Fristen, kein durchgängiges Managementsystem.</dd><dt>Umsetzung</dt><dd>Gemeinsames ISMS mit Risikobeurteilung, Richtlinienwerk und Business-Continuity-Management; länderspezifische Ergänzungen für NISG 2026 und NIS2UmsuCG.</dd></dl><p class="res2"><b>Ergebnis:</b> Freigabefähige Dokumentation für beide Geschäfts&shy;führungen und ein Fahrplan bis zur Selbst&shy;deklaration.</p><div class="chips2"><span>NIS2 / NISG 2026</span><span>NIS2UmsuCG</span><span>ISO 27001</span><span>BCM</span></div></article><article class="cs" data-cat="bit"><span class="tg">Business IT</span><h3>Internationale CRM-Transformation über 18 Länder&shy;organisationen</h3><p class="ctx">Rund 350 Anwender&shy;innen und Anwender · Vertrieb und Außendienst</p><dl><dt>Ausgangslage</dt><dd>Historisch gewachsene CRM-Landschaft mit uneinheitlichen Prozessen und Daten je Land.</dd><dt>Umsetzung</dt><dd>Gap-Analyse für das Management, Zielprozesse, Datenmigration, Rollen- und Rechtekonzept, koordinierter Rollout.</dd></dl><p class="res2"><b>Ergebnis:</b> Einheitliche Plattform und saubere Stammdaten – umgesetzt ohne Betriebsunterbrechung.</p><div class="chips2"><span>CRM</span><span>Migration</span><span>Rollout</span></div></article><article class="cs nv" data-cat="ki"><span class="tg">KI & Automatisierung</span><h3>KI-Assistent auf eigenem Unternehmenswissen</h3><p class="ctx">Eigenentwicklung · live im Einsatz auf dieser Website</p><dl><dt>Ausgangslage</dt><dd>Fachfragen sollen rund um die Uhr kompetent beantwortet werden – ohne Wissen unkontrolliert preiszugeben.</dd><dt>Umsetzung</dt><dd>Retrieval-Augmented-Generation-Architektur mit Vektordatenbank, Rollen- und Rechtekonzept und klaren Antwortgrenzen; mandantenfähig als White-Label-Plattform.</dd></dl><p class="res2"><b>Ergebnis:</b> VALI beantwortet Fragen zu NIS2 / NISG und ISO 27001 – testen Sie ihn rechts unten.</p><div class="chips2"><span>KI</span><span>Retrieval-Augmented Generation</span><span>Datenhoheit</span></div></article></div></div></section><section class="kn alt" style="padding:120px 0"><div class="w">
 <div class="kn-h"><div><span class="lbl">Wissen</span><h2>Fachwissen mit Quellen.</h2></div><a href="/blog" class="btn gh">Alle Beiträge <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
 <div class="kl"><a href="/blog-it-governance-kmu"><time datetime="2026-09-23">23. September 2026</time><b>IT-Governance im Mittelstand: Rollen, Verantwortung und der Informations&shy;sicherheits&shy;beauftragte</b><span>Governance · 6 Min.</span><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/blog-nisg-2026-fristen"><time datetime="2026-09-23">23. September 2026</time><b>NISG 2026: Alle Fristen von der Regis&shy;trierung bis zur Selbst&shy;deklaration</b><span>NIS2 / NISG · 6 Min.</span><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/blog-iso-27001-nis2"><time datetime="2026-09-23">23. September 2026</time><b>ISO 27001 und NIS2: Wie viel NISG 2026 deckt ein ISMS ab?</b><span>ISO 27001 · NIS2 / NISG · 6 Min.</span><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="/blog-nis2-geschaeftsfuehrung"><time datetime="2026-09-23">23. September 2026</time><b>NIS2 und Geschäfts&shy;führung: Pflichten, Schulung und Haftungsrisiko nach dem NISG 2026</b><span>Governance · NIS2 / NISG · 6 Min.</span><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
 </div></section>
 
 <section class="fq" id="fragen" style="padding-top:120px"><div class="w">
-<div><span class="lbl">Fragen</span><h2>Kurz beantwortet.</h2></div>
+<div><span class="lbl">Fragen</span><h2>Häufige Fragen.</h2></div>
 <div class="faq"><details><summary>Worauf ist VITA spezialisiert?</summary><p>Auf Governance, Compliance und Informations&shy;sicherheit – NIS2 / NISG 2026, das deutsche NIS2UmsuCG, ISO 27001, DORA und DSGVO. Dazu setzen wir Cybersecurity, KI, Business IT und Support um, damit Maßnahmen nicht auf dem Papier bleiben.</p></details><details><summary>Ab wann gilt NIS2 in Österreich und Deutschland?</summary><p>In Deutschland seit 6. Dezember 2025 (NIS2UmsuCG). In Österreich ab 1. Oktober 2026 (NISG 2026) – mit Regis&shy;trierung bis 31. Dezember 2026 und Selbst&shy;deklaration binnen zwölf Monaten.</p></details><details><summary>Betreuen Sie Unternehmen mit Standorten in beiden Ländern?</summary><p>Ja. Wir bauen ein gemeinsames ISMS und ergänzen die länderspezifischen Pflichten – Behörde, Regis&shy;trierung und Meldewege – gezielt.</p></details><details><summary>Brauchen wir eine ISO-27001-Zertifi&shy;zierung?</summary><p>Für NIS2 / NISG nicht zwingend. Ein ISMS nach ISO 27001 ist aber die effizienteste Struktur – und viele Kunden verlangen das Zertifikat ohnehin.</p></details><details><summary>Übernehmen Sie die Rolle des externen Informations&shy;sicherheits&shy;beauftragten?</summary><p>Ja. Mit direkter Berichtslinie zur Geschäfts&shy;führung, Steuerung des ISMS und Vorbereitung auf Audits und Selbst&shy;deklaration.</p></details><details><summary>Was kostet das Erstgespräch?</summary><p>Nichts. 30 Minuten, kostenlos und vertraulich.</p></details></div>
 </div></section>
 
 <section class="dark kt" id="kontakt"><div class="w">
 <div>
 <span class="lbl">Kontakt</span>
-<h2 data-split>Reden wir. 30 Minuten, kostenlos.</h2>
-<p class="l">Sie schildern Ihre Lage, wir sagen offen, was gilt und wo Sie beginnen sollten. Vertraulich und ohne Verkaufsdruck.</p>
+<h2 data-split>Kostenloses Erstgespräch.</h2>
+<p class="l">Sie schildern Ihre Ausgangslage, wir ordnen Pflichten und Prioritäten ein. 30 Minuten, vertraulich und unverbindlich.</p>
 <dl><dt>Telefon</dt><dd><a href="tel:+436701848382">+43 670 1 84 83 82</a></dd><dt>E-Mail</dt><dd><a href="mailto:md@wearevita.tech">md@wearevita.tech</a></dd><dt>Einsatzgebiet</dt><dd>Salzburg · Oberösterreich · österreichweit</dd></dl>
 </div>
 <div>
@@ -1014,8 +1152,8 @@ function result(){
  var dl=['Österreich: Pflichten ab 1. Oktober 2026, Registrierung bis 31. Dezember 2026','Deutschland: seit 6. Dezember 2025 in Kraft, Registrierung beim BSI','Risikomanagement, Meldepflichten und Leitungsschulung in beiden Ländern'];
  if((s==='a1'||s==='a2')&&g!=='s'){
   var wes=(s==='a1'&&g==='l');
-  r={tag:'Direkt betroffen',h:wes?'Voraussichtlich wesentliche Einrichtung':'Voraussichtlich wichtige Einrichtung',
-   p:wes?'Proaktive Aufsicht, Strafrahmen bis 10 Mio.&nbsp;€ oder 2&nbsp;% des weltweiten Umsatzes. Jetzt ist der richtige Zeitpunkt für einen Fahrplan.':'Reaktive Aufsicht, Strafrahmen bis 7 Mio.&nbsp;€ oder 1,4&nbsp;% des Umsatzes. Die Pflichten sind inhaltlich dieselben.',ul:dl,m:'NIS2 / NISG 2026'};
+  r={tag:'Direkt betroffen',h:wes?'Voraussichtlich wesentliche Einrichtung (Deutschland: besonders wichtige Einrichtung)':'Voraussichtlich wichtige Einrichtung',
+   p:wes?'Proaktive Aufsicht. Strafrahmen bis 10 Mio. € oder 2 % des weltweiten Jahresumsatzes, je nachdem, welcher Betrag höher ist.':'Reaktive Aufsicht. Strafrahmen bis 7 Mio. € oder 1,4 % des weltweiten Jahresumsatzes. Die Pflichten sind inhaltlich dieselben.',ul:dl,m:'NIS2 / NISG 2026'};
  }else if((s==='a1'||s==='a2')&&g==='s'){
   r={tag:'Grenzfall',h:'Voraussichtlich nicht direkt erfasst',p:'Unter der Größenschwelle – außer bei Sonderfällen wie DNS-, TLD- oder Vertrauensdiensten oder im Konzernverbund. Das sollte einmal sauber geprüft werden.',ul:['Sonderfälle unabhängig von der Größe prüfen','Konzern- und Partnerunternehmen einrechnen','Anforderungen Ihrer Kunden im Blick behalten'],m:'NIS2 / NISG 2026'};
  }else if(sup==='y'){

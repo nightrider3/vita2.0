@@ -777,6 +777,144 @@ a{color:var(--co-d)}
 .cs[hidden]{display:none}
 @media(max-width:1080px){.meth .g2{grid-template-columns:minmax(0,1fr);gap:40px}.cs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.dl2,.cs-grid{grid-template-columns:minmax(0,1fr)}.kpis{grid-template-columns:1fr 1fr;row-gap:22px}.kpis div:nth-child(3){padding-left:0;border-left:0}.meth,.refs3{padding:84px 0}}
+
+/* ================= Variante I: durchgehend hell ================= */
+:root{--sand:#EFEBE2}
+.dark,.inc,.kt{background:var(--sand)!important;color:var(--ink)}
+.dark::before{background-image:linear-gradient(rgba(10,22,40,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(10,22,40,.03) 1px,transparent 1px)}
+.dark .lbl{color:var(--co-d)}
+.dark .l,.inc .l,.kt .l{color:var(--ink2)}
+.inc h2,.kt h2,.dark h2{color:var(--ink)}
+.itl-g b{color:var(--ink)}.inc .itl-g h3{color:var(--ink)!important}.itl-g p{color:var(--ink2)}
+.itl-bar{background:var(--line)}.itl-g>div::before{background:var(--sand)}
+.dark .btn,.kt form .btn{background:var(--ink);color:#fff}
+.dark .btn:hover{background:var(--co);color:var(--ink)}
+.dark .btn.gh{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.dark .btn.gh:hover{background:var(--ink);color:#fff}
+.kt dl dt{color:var(--ink2)}.kt dl dd,.kt dl dd a{color:var(--ink)}.kt dl dd a:hover{color:var(--co-d)}
+form{background:#fff;border-color:var(--line);box-shadow:0 20px 50px rgba(10,22,40,.06)}
+.fl{color:var(--ink2)}.fg label{color:var(--ink)}
+.fg input,.fg textarea{background:var(--bg);border-color:var(--line);color:var(--ink)}
+.fg input:focus,.fg textarea:focus{background:#fff;border-color:var(--ink);box-shadow:0 0 0 4px rgba(201,168,76,.22)}
+.fc{color:var(--ink2)}.fc a{color:var(--co-d)}
+.chips span{border-color:var(--line);color:var(--ink);background:#fff}
+.chips input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.ok{background:#fff;border-color:var(--line);color:var(--ink)}
+.ft{background:var(--sand);color:var(--ink2);border-top:1px solid var(--line)}
+.ft .claim{color:var(--ink)}.ft b,.ft .tag2{color:var(--co-d)}
+.ft a{color:var(--ink2)}.ft a:hover{color:var(--ink)}
+.ft .g,.ft .bot{border-color:var(--line)}
+.wm{-webkit-text-stroke:1px rgba(10,22,40,.10)}
+.pl.hl{background:#fff;color:var(--ink);border-color:rgba(201,168,76,.55);box-shadow:inset 0 3px 0 var(--co)}
+.pl.hl>p{color:var(--ink2)}.pl.hl li a{color:var(--ink)}.pl.hl li{border-color:var(--line)!important}
+.pl.hl .n{color:var(--co-d)}.pl.hl .btn{background:var(--ink);color:#fff}
+.feat2.nv{background:#fff;color:var(--ink);border-color:var(--line)}
+.feat2.nv>p,.feat2.nv .proof span{color:var(--ink2)}.feat2.nv li{border-color:var(--line)}
+.feat2.nv .n{color:var(--co-d)}.feat2.nv .proof{border-color:var(--ink)}.feat2.nv .proof b{color:var(--ink)}
+.feat2.nv .btn{background:var(--ink);color:#fff}
+.feat2{box-shadow:inset 0 3px 0 var(--co)}
+.tldr{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--co);box-shadow:0 20px 50px rgba(10,22,40,.06)}
+.tldr li{border-color:var(--line)}.tldr .lbl{color:var(--co-d)}.tldr .st{color:var(--ink2)}
+.cband .w>div{background:#fff;border:1px solid var(--line);border-top:3px solid var(--co)}
+.cband .w>div::before{display:none}
+.cband h2{color:var(--ink)}.cband p{color:var(--ink2)}
+.cband .btn,.cband .btn.wh{background:var(--ink);color:#fff;box-shadow:none}
+.cband .btn:hover{background:var(--co);color:var(--ink)}
+.box.c{background:#fff;border-color:var(--line);border-top:3px solid var(--co)}
+.box.c h2{color:var(--ink)}.box.c p{color:var(--ink2)}.box.c .btn{background:var(--ink);color:#fff}
+a.feat{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--co)}
+a.feat p{color:var(--ink2)}a.feat small{color:var(--co-d)}a.feat .meta{color:var(--ink2)}
+.cs.nv{background:#fff;color:var(--ink);border-color:var(--line)}
+.cs{box-shadow:inset 0 3px 0 var(--co)}
+.cs.nv .ctx,.cs.nv dd{color:var(--ink2)}.cs.nv dt{color:var(--ink)}.cs.nv .tg{color:var(--co-d)}
+.cs.nv .res2{border-color:var(--ink);color:var(--ink)}.cs.nv .chips2 span{border-color:var(--line);color:var(--ink2)}
+.av{background:#fff;color:var(--co-d);border:1.5px solid var(--co)}
+.ck{background:#fff;color:var(--ink2);border-color:var(--line);box-shadow:0 20px 50px rgba(10,22,40,.14)}
+.ck a{color:var(--co-d)}.ck .btn.gh{color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.ck .btn{background:var(--ink);color:#fff}
+
+/* ================= Smartphone ================= */
+html{scroll-padding-top:96px;-webkit-tap-highlight-color:rgba(201,168,76,.18)}
+html.menu-open{overflow:hidden}
+img,svg{max-width:100%}
+@media(max-width:720px){
+ html{scroll-padding-top:84px}
+ body{font-size:16px}
+ .w{padding:0 20px}
+ .hd{top:10px}
+ .logo{padding:5px 14px 5px 6px}.logo img{height:30px}.logo b{font-size:1.05rem}
+ .burger{width:46px;height:46px}
+ .ov{padding:92px 24px 40px}.ov a{font-size:1.45rem;padding:9px 0;border-bottom:1px solid var(--line)}
+ .hero{padding:104px 0 56px}
+ .hero .w{gap:36px}
+ .brand{gap:12px;margin-bottom:20px}.brand img{height:42px}.brand b{font-size:1.05rem;letter-spacing:.4em}.brand span{font-size:.62rem;letter-spacing:.16em}
+ .lbl{font-size:.72rem;letter-spacing:.14em;margin-bottom:16px}
+ .hero h1{font-size:clamp(2.05rem,9.2vw,2.7rem);line-height:1.02;margin-bottom:18px}
+ .hero .l,.ph .l{font-size:1.04rem;margin-bottom:24px}
+ .acts{flex-direction:column;align-items:stretch}.acts .btn{width:100%;justify-content:center}
+ .res .acts{flex-direction:row}.res .acts .btn{width:auto;flex:1}
+ .hero .meta2{grid-template-columns:minmax(0,1fr);gap:0;margin-top:30px;padding-top:0}
+ .hero .meta2 div{display:flex;align-items:baseline;gap:14px;padding:12px 0;border-top:1px solid var(--line);font-size:.93rem}
+ .hero .meta2 b{font-size:1.5rem;min-width:74px}
+ .chk{padding:22px 18px}.chk-h b{font-size:1.2rem}.q h3{font-size:1.02rem}
+ .opt{padding:14px;font-size:.95rem}
+ .reg{padding:20px 0}.reg ul{gap:8px 18px}.reg li{font-size:.98rem}
+ .ph{padding:104px 0 44px}
+ .ph h1{font-size:clamp(1.95rem,8.6vw,2.55rem);line-height:1.04}
+ .phg{gap:28px}.tldr{padding:22px}
+ .core,.dig,.meth,.refs3,.stm,.story,.inc,.who,.kt{padding:72px 0}
+ .kn{padding:72px 0!important}.fq{padding:0 0 72px!important}
+ .core-h,.dig-h{margin-bottom:30px}
+ .core-h h2,.dig-h h2,.meth h2,.refs3 h2,.inc h2,.who h2,.kt h2,.fq h2,.kn-h h2,.st-l h2,.rail-h h2{font-size:clamp(1.8rem,7.8vw,2.35rem);line-height:1.05}
+ .stm p.big{font-size:clamp(1.65rem,7vw,2.1rem);line-height:1.1}
+ .facts3{margin-top:40px}.facts3 b{font-size:2.1rem}
+ .pl{padding:26px 22px}.pl .n{margin-bottom:22px}.pl h3{font-size:1.7rem}
+ .pl li a,.pl li span{padding:13px 0}
+ .feat2{padding:26px 22px}.feat2 h3{font-size:1.75rem}.proof b{font-size:2.1rem}
+ .sm2 a{padding:22px}
+ .stp{padding:22px 0}.stp h3{font-size:1.6rem}
+ .itl{margin-top:40px}.itl-g{row-gap:26px}.itl-g b{font-size:2.1rem}
+ .inc .more,.meth .std{gap:8px}
+ .idc{padding:24px 20px}.av{width:60px;height:60px;font-size:1.25rem}.idc h3{font-size:1.4rem}
+ .cv li{grid-template-columns:minmax(0,1fr) auto;font-size:.93rem}
+ .dl2 div{padding:14px 0}
+ .cs{padding:24px 20px}.cs h3{font-size:1.35rem}
+ .kl a{padding:20px 0}.kl b{font-size:1.25rem}
+ .faq summary{font-size:1.12rem;padding:20px 40px 20px 0}.faq details p{padding:0 0 22px}
+ .kt .w{gap:36px}.kt h2{margin-bottom:16px}.kt dl dd{font-size:1.25rem}
+ form{padding:22px 18px}
+ .fg input,.fg textarea{font-size:16px;padding:14px}
+ .chips span{padding:10px 14px}
+ .body{padding:20px 20px 60px}
+ .ct>section{margin-bottom:48px}.ct>section>h2{font-size:1.7rem}
+ .tb>div,.tb>a{padding:20px}
+ .relx{padding-bottom:72px}.relx a{min-height:0;padding:22px}
+ .cband{padding-bottom:72px}.cband .w>div{padding:30px 22px}.cband h2{font-size:1.75rem}
+ .cband .btn{width:100%;justify-content:center}
+ .art .lead{font-size:1.3rem}.art .ct{font-size:1.04rem}
+ .kpis b{font-size:2.1rem}
+ .pfil{gap:6px}.pfil button{padding:10px 13px}
+ .ft{padding-top:60px}.ft .g{gap:26px;padding-bottom:36px}.ft li a{display:inline-block;padding:5px 0}
+ .ft .bot{flex-direction:column}.ft .bot nav{display:flex;flex-wrap:wrap;gap:6px 18px}.ft .bot nav a{margin:0;padding:6px 0}
+ .ck{left:10px;right:10px;bottom:10px;max-width:none;padding:16px}.ck .btn{flex:1;justify-content:center}
+ .bc{margin-bottom:18px}
+ .ft li a,.ft .bot nav a{display:inline-flex;align-items:center;min-height:44px;padding:0}
+ .ft li{margin-bottom:0}
+ .src li a{display:inline-block;padding:10px 0}
+ .brand span{font-size:.75rem;letter-spacing:.12em}
+ .lbl,.reg small,.tldr .lbl{font-size:.78rem}
+ .pl li a,.kl a,.opt{min-height:48px}
+ .ck .btn{min-height:46px}
+ .hero .brand{display:none}
+ .hero .meta2 b{white-space:nowrap;min-width:84px}
+ .chk-h{flex-wrap:wrap;gap:4px 12px}
+}
+@media(max-width:380px){
+ .w{padding:0 16px}.body{padding:16px 16px 56px}
+ .hero h1{font-size:2rem}.ph h1{font-size:1.9rem}
+ .brand span{font-size:.72rem;letter-spacing:.08em}
+ .res .acts{flex-direction:column}.res .acts .btn{width:100%}
+}
 </style>
 </head>
 <body><a class="skip" href="#main">Zum Inhalt</a>
@@ -800,7 +938,7 @@ a{color:var(--co-d)}
 <p class="meta">Marko Djurasinovic · <time datetime="2026-09-23">23. September 2026</time> · 6 Min. Lesezeit</p>
 </div></section>
 <div class="w lay"><div class="ct">
-<p class="lead">Viele Sicherheits&shy;probleme sind in Wahrheit Governance-Probleme: Niemand ist zuständig, Entscheidungen werden nicht getroffen, Risiken bleiben liegen. Gute IT-Governance beantwortet drei Fragen – wer entscheidet, wer setzt um, wer kontrolliert.</p>
+<p class="lead">Viele Sicherheitsprobleme sind in Wahrheit Governance-Probleme: Niemand ist zuständig, Entscheidungen werden nicht getroffen, Risiken bleiben liegen. Gute IT-Governance beantwortet drei Fragen – wer entscheidet, wer setzt um, wer kontrolliert.</p>
 <h2 id="governance-ist-nicht-management">Governance ist nicht Management</h2>
 <p>IT-Governance legt fest, <strong>welche Ziele</strong> die IT verfolgt, <strong>wer verantwortlich</strong> ist und <strong>wie überwacht</strong> wird. Das Management sorgt für die Umsetzung. Normen wie ISO/IEC 38500 oder Rahmenwerke wie COBIT beschreiben diese Trennung – im Mittelstand reicht meist ein schlankes, klar dokumentiertes Modell.</p>
 
@@ -808,7 +946,7 @@ a{color:var(--co-d)}
 <h3>Geschäfts&shy;führung</h3>
 <p>Genehmigt Strategie, Risikoappetit und Budget, trifft Entscheidungen über akzeptierte Risiken und überwacht die Umsetzung. Unter dem NISG 2026 ist diese Rolle gesetzlich verankert.</p>
 <h3>Informations&shy;sicherheits&shy;beauftragte (ISB / CISO)</h3>
-<p>Koordiniert das Informations&shy;sicherheits-Managementsystem, bewertet Risiken, berät die Leitung und berichtet regelmäßig. Entscheidend ist eine <strong>direkte Berichtslinie zur Geschäfts&shy;führung</strong>.</p>
+<p>Koordiniert das Informations&shy;sicherheits-Management&shy;system, bewertet Risiken, berät die Leitung und berichtet regelmäßig. Entscheidend ist eine <strong>direkte Berichtslinie zur Geschäfts&shy;führung</strong>.</p>
 <h3>IT-Leitung und IT-Betrieb</h3>
 <p>Setzt technische Maßnahmen um und betreibt die Systeme. Sie ist wichtigster Partner der ISB – aber nicht deren Kontrollinstanz.</p>
 <h3>Risk Owner in den Fachbereichen</h3>
