@@ -1,0 +1,14 @@
+{
+  "name": "VITA – Visionary Information Technology Austria",
+  "short_name": "VITA",
+  "description": "Ihr IT-Partner für KI, Cybersecurity & Compliance in Österreich",
+  "icons": [
+    { "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#0a1628",
+  "background_color": "#060e1e",
+  "display": "standalone",
+  "start_url": "/",
+  "lang": "de-AT"
+}

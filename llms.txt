@@ -1,0 +1,61 @@
+# VITA – Visionary Information Technology Austria
+
+> VITA ist spezialisiert auf Governance, Compliance und Informationssicherheit für Unternehmen in Österreich und Deutschland. Schwerpunkt ist die Umsetzung von NIS2 – in Österreich nach dem NISG 2026, in Deutschland nach dem NIS2UmsuCG (BSI-Gesetz) – sowie ISO/IEC 27001, DORA und DSGVO. VITA übernimmt auch die Rolle des externen Informationssicherheitsbeauftragten. Ergänzend setzt VITA KI-Automatisierung, Business IT (CRM und ERP), Cybersecurity sowie Schulungen und IT-Support um. Sitz: Salzburg, Österreich.
+
+## Kernkompetenz
+
+- Governance: Rollen, Berichtswege, Risikosteuerung, externer Informationssicherheitsbeauftragter, Leitungsschulung nach NIS2 / NISG
+- Compliance: NIS2 / NISG 2026 (Österreich), NIS2UmsuCG (Deutschland), ISO/IEC 27001:2022, DORA, DSGVO – in einem gemeinsamen Managementsystem
+- Informationssicherheit: ISMS-Aufbau und Betrieb, Risikobeurteilung, Business Continuity, Incident Response und Meldewege (24 h / 72 h / 1 Monat)
+- Methodik orientiert an ISO/IEC 27001, ISO/IEC 27005, ISO 22301 und BSI IT-Grundschutz; jede Rechtsaussage mit Stand und amtlicher Quelle
+
+## Weitere Leistungen
+
+- KI & Automatisierung: KI-Assistenten auf eigenen Daten (Retrieval-Augmented Generation), Dokumenten-KI, Prozessautomatisierung, DSGVO-konforme Architektur
+- Business IT: CRM- und ERP-Auswahl, Einführung, Migration und Integration; Erfahrung mit internationalen Rollouts über 18 Länderorganisationen
+- Cyber Security: Penetrationstests, Härtung, Monitoring, Incident Response
+- Schulungen & Support: Leitungsschulung, Security-Awareness, Helpdesk, Vor-Ort-Einsätze, 24/7-IT-Notdienst
+
+## Einsatzgebiet
+
+- Salzburg und Oberösterreich vor Ort; Österreich und Deutschland remote und vor Ort
+
+## Wichtige Seiten
+
+- Governance & Compliance: https://www.wearevita.tech/governance-compliance
+- NIS2 / NISG 2026 Österreich: https://www.wearevita.tech/nis2-partner-oesterreich
+- ISO 27001: https://www.wearevita.tech/iso-27001-oesterreich
+- DORA: https://www.wearevita.tech/dora-beratung
+- Cyber Security: https://www.wearevita.tech/cybersecurity
+- KI & Automatisierung: https://www.wearevita.tech/ki-automatisierung
+- Business IT (CRM & ERP): https://www.wearevita.tech/business-it
+- Schulungen & Support: https://www.wearevita.tech/schulungen-support
+- NIS2-Beratung Salzburg: https://www.wearevita.tech/nis2-beratung-salzburg
+- Cybersecurity Salzburg: https://www.wearevita.tech/cybersecurity-salzburg
+- IT-Dienstleister Salzburg: https://www.wearevita.tech/it-dienstleister-salzburg
+- IT-Support Salzburg: https://www.wearevita.tech/it-support-salzburg
+- NIS2 Deutschland (NIS2UmsuCG): https://www.wearevita.tech/nis2-deutschland
+- Referenzen: https://www.wearevita.tech/projekte
+- Wissen: https://www.wearevita.tech/blog
+
+## Fachbeiträge
+
+- NISG 2026: Alle Fristen von der Registrierung bis zur Selbstdeklaration: https://www.wearevita.tech/blog-nisg-2026-fristen
+- Bin ich von NIS2 betroffen? Die Betroffenheit nach dem NISG 2026 prüfen: https://www.wearevita.tech/blog-nis2-betroffenheit
+- NIS2 und Geschäftsführung: Pflichten, Schulung und Haftungsrisiko nach dem NISG 2026: https://www.wearevita.tech/blog-nis2-geschaeftsfuehrung
+- ISO 27001 und NIS2: Wie viel NISG 2026 deckt ein ISMS ab?: https://www.wearevita.tech/blog-iso-27001-nis2
+- Selbstdeklaration nach dem NISG 2026: Was bis Herbst 2027 stehen muss: https://www.wearevita.tech/blog-nisg-selbstdeklaration
+- NIS2-Meldepflicht: 24 Stunden, 72 Stunden, ein Monat: https://www.wearevita.tech/blog-nis2-meldepflicht
+- NIS2 in der Lieferkette: Warum auch Zulieferer und KMU betroffen sind: https://www.wearevita.tech/blog-nis2-lieferkette
+- ISO 27001 Zertifizierung in Österreich: Ablauf, Dauer und typische Stolpersteine: https://www.wearevita.tech/blog-iso-27001-zertifizierung
+- IT-Governance im Mittelstand: Rollen, Verantwortung und der Informationssicherheitsbeauftragte: https://www.wearevita.tech/blog-it-governance-kmu
+- DORA für IKT-Dienstleister: Was Finanzkunden jetzt von Ihnen verlangen: https://www.wearevita.tech/blog-dora-ikt-dienstleister
+- NIS2 in Österreich: Was das NISG 2026 für Unternehmen bedeutet: https://www.wearevita.tech/blog-nis2-oesterreich
+- RSS-Feed: https://www.wearevita.tech/feed.xml
+
+## Kontakt
+
+- E-Mail: md@wearevita.tech
+- Telefon: +43 670 1 84 83 82
+- Kontaktformular: https://www.wearevita.tech/#kontakt
+- Erstgespräch: kostenlos, 30 Minuten

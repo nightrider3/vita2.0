@@ -1,0 +1,13 @@
+# Konfiguration für VALI. Die statische Seite wird weiterhin wie bisher
+# ausgeliefert; ergänzt wird nur die Serverless-Funktion unter
+# netlify/functions/. NODE_VERSION sorgt dafür, dass das integrierte
+# fetch in der Funktion verfügbar ist.
+
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[functions]
+  node_bundler = "esbuild"
