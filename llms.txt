@@ -1,6 +1,6 @@
 # VITA – Visionary Information Technology Austria
 
-> VITA ist spezialisiert auf Governance, Compliance und Informationssicherheit für Unternehmen in Österreich und Deutschland. Schwerpunkt ist die Umsetzung von NIS2 – in Österreich nach dem NISG 2026, in Deutschland nach dem NIS2UmsuCG (BSI-Gesetz) – sowie ISO/IEC 27001, DORA und DSGVO. VITA übernimmt auch die Rolle des externen Informationssicherheitsbeauftragten. Darauf aufbauend setzt VITA Cyber Security, Business IT (CRM und ERP), KI-Automatisierung sowie Schulungen und IT-Support um. Sitz: Salzburg, Österreich.
+> VITA ist spezialisiert auf Governance, Compliance und Informationssicherheit für Unternehmen im DACH-Raum und in der Europäischen Union. Schwerpunkt ist die Umsetzung von NIS2 – in Österreich nach dem NISG 2026, in Deutschland nach dem NIS2UmsuCG (BSI-Gesetz) – sowie ISO/IEC 27001, DORA und DSGVO. VITA übernimmt auch die Rolle des externen Informationssicherheitsbeauftragten. Darauf aufbauend setzt VITA Cyber Security, Business IT (CRM und ERP), KI-Automatisierung sowie Schulungen und IT-Support um. Sitz: Salzburg, Österreich.
 
 ## Kernkompetenz
 
@@ -18,7 +18,9 @@
 
 ## Einsatzgebiet
 
-- Salzburg und Oberösterreich vor Ort; Österreich und Deutschland remote und vor Ort
+- Sitz in Salzburg (Österreich); vor Ort vor allem in Salzburg und Oberösterreich
+- Beratung und Umsetzung im gesamten DACH-Raum (Österreich, Deutschland, Schweiz, Liechtenstein) und in der Europäischen Union – remote und vor Ort
+- Nationale NIS2-Umsetzung im Detail: NISG 2026 (Österreich) und NIS2UmsuCG / BSI-Gesetz (Deutschland)
 
 ## Wichtige Seiten
 
@@ -51,6 +53,7 @@
 - IT-Governance im Mittelstand: Rollen, Verantwortung und der Informationssicherheitsbeauftragte: https://www.wearevita.tech/blog-it-governance-kmu
 - DORA für IKT-Dienstleister: Was Finanzkunden jetzt von Ihnen verlangen: https://www.wearevita.tech/blog-dora-ikt-dienstleister
 - NIS2 in Österreich: Was das NISG 2026 für Unternehmen bedeutet: https://www.wearevita.tech/blog-nis2-oesterreich
+- ISO 27001 Risikobeurteilung: Methode, Kriterien und Erklärung zur Anwendbarkeit: https://www.wearevita.tech/blog-iso-27001-risikobeurteilung
 - RSS-Feed: https://www.wearevita.tech/feed.xml
 
 ## Kontakt

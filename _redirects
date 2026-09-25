@@ -1,3 +1,6 @@
+# Terminbuchung: Nach Einrichtung des Buchungstools hier den Buchungslink eintragen,
+# z. B.  /termin   https://zeeg.me/vita/erstgespraech   302
+/termin                                  /#kontakt                          302
 /index.html                      /                           301!
 /ki-automatisierung.html                 /ki-automatisierung                301!
 /cybersecurity.html                      /cybersecurity                     301!
@@ -31,3 +34,4 @@
 /datenschutz.html                        /datenschutz                       301!
 /agb.html                                /agb                               301!
 /nis2-deutschland.html                   /nis2-deutschland                  301!
+/blog-iso-27001-risikobeurteilung.html   /blog-iso-27001-risikobeurteilung  301!
